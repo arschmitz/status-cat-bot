@@ -1,0 +1,29 @@
+{
+  "name": "status-cat-bot",
+  "version": "0.0.0",
+  "description": "Post images of status cats to slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arschmitz/status-cat-bot.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "http",
+    "status",
+    "cats"
+  ],
+  "author": "Alexander Schmitz <arschmitz@gmail.com> (http://arschmitz.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arschmitz/status-cat-bot/issues"
+  },
+  "homepage": "https://github.com/arschmitz/status-cat-bot",
+  "dependencies": {
+    "slack-client": "^1.4.1"
+  }
+}
