@@ -1,6 +1,6 @@
 {
   "name": "status-cat-bot",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Post images of status cats to slack",
   "main": "index.js",
   "scripts": {
