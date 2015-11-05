@@ -12,4 +12,4 @@ statusCats( slackToken );
 ## Usage
 
 Simply type `http` followed by a 3 digit number and status cat will respond with the matching image
-![screenshot](/img/screenshot.jpg)
+![screenshot](img/screenshot.png)
