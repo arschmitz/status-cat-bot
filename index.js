@@ -44,7 +44,7 @@ slack.on( "message", function( message ) {
 	console.log( "Recieved message from " + userName + " in " + channelName );
 	console.log( message.text );
 	if ( message.type === "message" && message.text && channel ) {
-		var codes = message.text.match( /http(([0-9]){3})|http (([0-9]){3})|(([0-9]){3}) error|getting a (([0-9]){3})|its a (([0-9]){3})|it\'s a (([0-9]){3})|(([0-9]){3}) status/g );
+		var codes = message.text.match( /http(([0-9]){3})|http (([0-9]){3})|(([0-9]){3}) error|getting a (([0-9]){3})|its a (([0-9]){3})|it\'s a (([0-9]){3})|(([0-9]){3}) status| a (([0-9]){3})/g );
 		if ( codes && codes.length ) {
 			for ( var i = 0; i < codes.length; i++ ) {
 				var code = codes[ i ].match( /([0-9]){3}/ );
